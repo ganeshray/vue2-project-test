@@ -2,7 +2,7 @@
   <template>
   <v-app>
     <v-toolbar app>
-      <v-toolbar-title >  My Vue App</v-toolbar-title>
+      <!-- <v-toolbar-title > <v-btn text to ="/"> My Vue App</v-btn> </v-toolbar-title> -->
       <v-spacer></v-spacer>
       <v-btn text to="/">Home</v-btn>
       <v-btn text to="/about">About</v-btn>
@@ -17,10 +17,10 @@
 </template>
 <script>
 
-import MyTodoForm from './components/MyTodoForm';
+import MyTodoForm from './MyTodoForm';
 
 export default {
-  name: 'App',
+  name: 'HeaderMenu',
   components: {
     MyTodoForm,
   },
